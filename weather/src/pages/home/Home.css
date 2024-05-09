@@ -1,0 +1,29 @@
+.home-bg{
+    height: 400vh;
+    transition: transform 2s ease;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-bg-image{
+    background-image: url('./../../shared//images/zipcode-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.weather-details-box{
+    height: 70%;
+}
+
+.weather-list-box{
+    height: 30%; 
+}

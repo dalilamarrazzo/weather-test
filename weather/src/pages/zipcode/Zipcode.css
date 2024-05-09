@@ -1,0 +1,60 @@
+.zipcode-container{
+    background-image: url('./../../shared//images/zipcode-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zipcode-input-container{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff2e;
+    border-radius: 25px;
+    padding: 1rem;
+}
+.zipcode-input-container h1{
+    margin: 0;
+    font-family: sans-serif;
+    color: #89899f;
+    text-shadow: 2px 2px #181a27a3;
+}
+
+.zipcode-input-container input{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.2rem;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #ffffff2e;
+    background-color: #ffffff2e;
+    border-radius: 50%;
+    outline: none;
+}
+
+.zipcode-input-container input:focus{
+    background-color: #ffffff61;
+    border: 1px solid #ffffff61;
+    box-shadow: 0 0 0 .25rem rgb(87 87 113);
+}
+
+.zipcode-btn{
+    margin: 0rem;
+    padding: 0.5rem 2rem !important;
+    border-radius: 20px !important;
+    color: #89899f !important;
+    background-color: #181a27 !important;
+    border-color: #181a27 !important;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.zipcode-btn:disabled{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #ffffff63 !important;
+}

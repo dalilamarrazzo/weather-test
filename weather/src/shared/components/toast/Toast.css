@@ -1,0 +1,15 @@
+.toast-cst-container{
+    left: .75rem;
+    bottom: 8vh;
+    position: absolute;
+    justify-content: center;
+    z-index: 999;
+    left: .75rem;
+    bottom: calc(8vh + 0.5rem);
+}
+
+.toast-cst-container .toast-header, .toast-cst-container .toast-body{
+    background-color: #d6dfff;
+    color: #323f6a;
+}
+

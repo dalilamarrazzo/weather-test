@@ -1,0 +1,10 @@
+.layout-container{
+    min-height: 100vh;
+    height: auto;
+}
+
+.page-content{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+}

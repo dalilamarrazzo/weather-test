@@ -1,0 +1,48 @@
+.weather-details-container{
+    padding: 1rem 2rem;
+}
+
+.weather-details-container p{
+    text-align: start;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(75 75 75);
+    margin: 0;
+
+}
+
+.text-box{
+    transition: opacity 2s ease-in;
+}
+
+p.city{
+    font-size: 25px;
+    margin-bottom: .5rem;
+    font-weight: bolder;
+}
+
+p.date{
+    color: rgb(75 75 75);
+    text-shadow: none;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: .5rem;
+}
+
+p.temperature{
+    font-size: 100px;
+    letter-spacing: -5px;
+    position: relative;
+    left: -10px;
+    line-height: 1;
+}
+
+.weather-image{
+    height: 23rem;
+    width: 28rem;
+    background-size: cover;
+    position: absolute;
+    right: -44rem;
+    top: 6rem;
+    transition: transform 1.5s cubic-bezier(0.48, 1, 0.58, 1);
+}
